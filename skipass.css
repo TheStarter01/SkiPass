@@ -1,0 +1,500 @@
+        ::-webkit-scrollbar{
+            display: none;
+        }
+
+
+/* Font */
+        
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+            @font-face {
+                font-family: 'aileron';
+                src: url(/aileron/Aileron-Light.otf);
+            }
+            @font-face {
+                font-family: 'poppins';
+                src: url(/Poppins/Poppins-Medium.ttf);
+            }
+/* Fonts end */
+
+
+/* slider start */
+            .maindiv{
+                margin-top: 35px;
+                display: flex;
+                justify-content: space-around; 
+                text-align: center;
+            }
+
+            #dot1 , #dot2 , #dot3{
+                width: 18px;
+                height: 18px;
+                background-color: #d9d9d9;
+                color: white;
+                border-radius: 100%;
+            }
+
+            #line1, #line2{
+                width: 124px; height: 2px; 
+                background-color: #d9d9d9;
+                
+            }
+
+            .page_name{
+                display: flex;
+                justify-content: space-between; 
+                width: 340px; color: #004777; 
+                margin-top: 5px;
+                font-weight: 600;
+                
+            }
+
+            #text1, #text2, #text3{
+                visibility: hidden;
+            }
+/* slider end */
+
+
+        .box {
+            border: 1px solid #cbe0eec9;
+            height: 78px;
+            width: 96px;
+            border-radius: 5px;
+            margin-right: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            border: 1px solid #004777;
+        }
+
+        .box p {
+            padding: 2px;
+            margin: 0;
+            text-align: center;
+            font-size: 14px;
+            line-height: 21px;
+        
+        }
+
+        .box img {
+            width: 30px;
+            height: 30px;
+        }
+
+
+        h5,h4,h3     {
+            color: #004777;
+        }
+
+        input {
+            margin-top: 4px;
+            width: 92%;
+            color: #004777;
+            border-color: #004777;
+            padding: 8px;
+        }
+
+        
+        
+        .two{
+            display: none;
+        }
+            
+        h1,h3{
+            font-family: 'poppins', sans-serif;
+        }
+        
+        .col-lg-4 p{
+            font-family: 'aileron', sans-serif;
+        }
+        
+
+/* Buttons */
+
+
+        .btn {
+            margin-top: 7px;
+            padding: 8px 47px;
+            background-color: #004777;
+            color: #ECF7FF;
+        }
+        
+        .btn:hover {
+            background-color: #07B889;
+            color: #ECF7FF;
+        }
+            
+        .col-lg-4 img{
+            margin-top: 10px;
+            margin-bottom: 5px;
+            border: 0px solid gray;
+            border-radius: 10px;
+        }
+
+        .wave{
+            margin-top: 100px;
+        }
+
+/* Media Query for desktop/Laptop */
+        @media(min-width : 1001px){
+            .cardWidth{
+            border: 1px solid #F5F5F5;
+            border-radius: 12px;
+            margin-left: 173px; 
+            margin-right: 173px;
+            margin-bottom: 24px;
+            }
+
+            .midBorder{
+                border-right: 0.7px solid rgba(216, 216, 216, 0.769);  
+                padding-right: 17px;
+                padding-left: 40px;
+                margin-top: 15px;
+                
+            }
+            
+            .Next{
+                    display: inline-block;
+                    width: 171px;
+                    height: 46px;
+                    border-radius: 4px;
+                    font-family: 'aileron';    
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 25px; 
+                    background-color: rgba(246, 202, 85, 1);
+                    background-color: rgba(244, 192, 53, 1);   
+                    font-style: normal;
+                    letter-spacing: 1px;
+                    margin-bottom: 10px;
+                    margin-right: 20px;
+                    float: right;
+            }
+            
+            
+            .Next:hover{
+                background-color: #07B889;
+            }
+            
+            
+            .BottomItem{
+                background-color: #F2FAFF;
+                height: 400px;
+                padding-left: 300PX;
+                padding-right: 300PX;  
+            }
+            .BottomItem p{
+                font-weight: 400;
+                font-size: 16px;
+                font-family: aileron;
+                list-style: 28.9px;
+                letter-spacing: 2px;
+                word-spacing: 2px;
+                gap: 10px;
+                opacity: 80%;
+                line-height: 28.9px;
+            }
+            .BottomItem h4{
+                padding-bottom: 10px;
+            }
+            
+            .col-lg-4{
+                padding-left: 20px;
+            }
+            .box:hover{
+                color: #004777;
+                font-weight: 500;
+                box-shadow: 0px 1px 5px .1px #00477785;
+                border:1px solid #7FA2BA;
+
+            }
+            .col-lg-4 p{
+                text-align: center;
+                    font-style:normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    opacity: 90%;
+                    text-transform: capitalize; 
+                    color: black;
+                    font-family: "aileron";
+                }
+            .col-lg-3 img{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border: 0px solid gray;
+                border-radius: 10px;
+            }
+            .col-lg-3{
+                padding-left: 20px;
+            }
+            .middle-part h3{
+                margin-bottom:  20px;
+            }
+            .facilities-part p{
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+            hr{
+                margin-left: 12.55%;
+                margin-right: 12.55%;    
+            }
+            .total-part{
+                padding-left: 130px;
+                padding-right: 130px;
+                margin-top: 50px;
+                opacity: 60%;
+            }
+            
+            .inputfiled{
+            
+                margin-top: 22px;
+                margin-left: 2PX;
+            }
+            .inputfiled input{
+                width: 302px;
+                height: 54px;
+                border-radius: 4px;
+                border: 1px solid rgba(0, 71, 119, 0.1); 
+            }
+            .heading{
+                width: 360px;
+                height: 50px;    
+                margin-left: 150px;
+                margin-bottom: 20px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 130%;
+                text-transform: capitalize;
+                color: #000509; 
+                margin-top: 25px;
+            }
+
+            .datePicker{
+                background-image: url(/Assests/material-symbols_date.svg);
+                background-repeat: no-repeat;
+                position: right;
+                background-position: 96%;
+            }
+            .footer{
+                height: 400px;
+                width: 100%;
+                background-color: #004777;
+            }
+    
+        }
+
+/* Media Query For Mobile */
+
+        @media(max-width : 500px) {
+            
+            *{
+                margin: 0%;
+                padding: 0%;
+            }
+             .row{
+                display: grid;  
+                
+            }
+            .ageGroup{
+                text-align: center;
+            }
+            .btn{
+                width: 100%;
+                
+            }
+            .img-fluid{
+                width: 90%;
+                height: 80%;
+            }
+            .heading{
+                color: #004777;
+                text-align: center;  
+                margin-top: 50px;
+                margin-bottom:  20px;
+                font-weight: 900;
+                font-size: 1000;
+            }
+            
+            .total-part{
+                opacity: 40%;
+            }
+            .TopBtn{
+                display: none;
+            }
+            .Next:hover{
+                background-color: #07B889;
+            }
+            .Next{
+                grid-column:1/12;
+                grid-row: 1;
+            }
+            .previous{
+                grid-column: 1/12;
+                grid-row: 2;
+            }
+            .bottomLine{
+                background-color: #ffffff;
+            } 
+            
+            .BottomItem{
+                background-color: #F2FAFF;
+                padding-left: 50px;
+            }
+
+            .BottomItem img{
+                margin-bottom: 20px;
+            }
+            .BottomItem p{
+                font-weight: 500;
+                font-size: 18px;
+                font-family: aileron;
+                list-style: 20px;
+                letter-spacing: 2px;
+                word-spacing: .75px;
+                
+                opacity: 80%;
+                line-height: 28.9px;
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+            
+            .row .col-lg-4{
+                padding: 11px;
+            }
+            .Next{
+                display: none;
+            }
+            .cardWidth{
+                margin-left: 20px;
+                margin-right: 20px;
+                border-radius: 10px;
+            }
+            .ageGroup img{
+                width:100%;
+                height: 90%;
+                padding-top: 0;
+                border-radius: 10px 10px 10px 10px ; 
+            }
+            .ageGroup img:hover{
+                box-shadow: 0px 5px 10px;
+            }
+            .facilities-part p{
+                margin-bottom: 10.5px;
+            }
+            .datePicker{
+                background-image: url(/Assests/material-symbols_date.svg);
+                background-repeat: no-repeat;
+                position: right;
+                background-position: 25rem;
+            }
+            .datePicker{
+            border-radius: 0.25rem;
+            }
+
+            .inputfiled{
+            
+                margin-top: 22px;
+                margin-left: 2PX;
+            }
+            .inputfiled input{
+                width: 100%;
+                height: 54px;
+                margin-top: 15px;
+                border-radius: 4px;
+                border: 1px solid rgba(0, 71, 119, 0.1); 
+            }
+            
+
+            hr{
+                opacity: 10%;
+            }
+            
+            .cardWidth{
+                margin-bottom: 20px;
+
+            }
+
+            .footer{
+                height: 400px;
+                width: 100%;
+                
+            }
+
+            .datePicker{
+                border-radius: 4px;
+                background-image: url(/Assests/material-symbols_date.svg);
+                background-repeat: no-repeat;
+                position: right;
+                background-position: 96%;
+                border: 1px solid rgba(0, 71, 119, 0.1);
+            }
+
+
+    }
+
+/* Media Query for Tablet */
+
+        @media (min-width : 500px ) and (max-width : 1000px)  {
+            .cardWidth{
+                margin-bottom: 50px;
+            }
+            .heading h1{
+                font-family: 'rustico';
+                font-size: 40px;
+                color: black;
+                text-align: right;
+                margin-right: 15px;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            
+            .ageGroup{
+                text-align: center;
+                margin-bottom: -60px;
+
+            }
+            .ageGroup img{
+                width: 90%;
+                height: 80%;
+                border-radius: 10px;
+                margin-bottom: 0px;
+            }
+            .ageGroup img:hover{
+                box-shadow: 5px 5px 20px #004777;
+            }
+            .Next{
+            display: none;
+            }
+
+            .middle-part{
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            .text-end button{
+                width: 50%;
+            }
+
+            .row .col-lg-4{
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            .datePicker{
+                border-radius: 4px;
+                background-image: url(/Assests/material-symbols_date.svg);
+                background-repeat: no-repeat;
+                position: right;
+                background-position: 96%;
+                border: 1px solid rgba(0, 71, 119, 0.1);
+            }
+            .BottomItem{
+                background-color: #F2FAFF;
+            }
+
+        }
